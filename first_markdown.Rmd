@@ -29,4 +29,13 @@ You can also embed plots, for example:
 plot(pressure)
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the 
+
+```{r}
+x <- c(1,34,5,7,8,8,9,345,6)
+y <- c(3,54,5,4,5,4,6,754,5)
+
+plot(y ~ x)
+
+```
+
